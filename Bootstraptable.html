@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bootstrap table</title>
+<!-- including the CDN link
+ --> 
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+	<div class="container">
+
+		<div class="page-header"><h1>This is table demo</h1></div>
+
+		<div class="table-responsive"> 
+	<!-- making the table responsive -->
+
+<table class="table table-bordered table-hover"> <!-- making the table with border and hovering effect. -->
+	<thead>
+		<tbody>
+		<tr class="alert alert-success">
+			<th>FirstName</th>
+			<th>LastName</th>
+			<th>Address</th>
+		</tr>
+	</thead><!--  end of table heading -->
+
+	<tr class="alert alert-info">   
+ <!-- or <tr class="bg-info"> -->
+ 		<td>Badri </td>
+		<td>Paudel</td>
+		<td>Baglung Nepal</td>
+	</tr>
+	<tr class="bg-danger">
+		<td>Sujan </td>
+		<td>Paudel</td>
+		<td>Kathmandu Nepal</td>
+	</tr>
+	<tr class="bg-warning">
+		<td>Jane</td>
+		<td>Russel</td>
+		<td>Dhaka Bangladesh</td>
+	</tr>
+</table>  
+</div>
+</div>
+</body>
+</html>
