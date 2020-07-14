@@ -1,2 +1,4 @@
 # BootstrapTuts
-Basics of Bootstrap (codes)
+
+----------------------------------
+basics of bootstrap framework. 
